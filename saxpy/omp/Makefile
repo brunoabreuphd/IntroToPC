@@ -8,7 +8,7 @@ LDFLAGS=-fopenmp
 SOURCE=./saxpy_omp.cpp
 
 # binary name
-EXEC=a.out
+EXEC=saxpy_omp.exe
 
 all:
 	$(CC) $(LDFLAGS) $(SOURCE) -o $(EXEC)
