@@ -8,7 +8,7 @@ LDFLAGS=-fopenmp
 SOURCE=./hello_omp.cpp
 
 # binary name
-EXEC=a.out
+EXEC=hello_omp.exe
 
 all:
 	$(CC) $(LDFLAGS) $(SOURCE) -o $(EXEC)
