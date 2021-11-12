@@ -8,7 +8,7 @@ LDFLAGS=
 SOURCE=./stats_serial.cpp
 
 # binary name
-EXEC=a.out
+EXEC=stats_serial.exe
 
 all:
 	$(CC) $(LDFLAGS) $(SOURCE) -o $(EXEC)
