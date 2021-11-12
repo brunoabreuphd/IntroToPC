@@ -8,10 +8,10 @@ LDFLAGS=
 SOURCE=./hello_serial.cpp
 
 # binary name
-EXEC=a.out
+EXEC=hello_serial.exe
 
 all:
-	$(CC) $(FDFLAGS) $(SOURCE) -o $(EXEC)
+	$(CC) $(LDFLAGS) $(SOURCE) -o $(EXEC)
 	@echo -e "----- COMPILATION DONE -----"
 
 clean:
