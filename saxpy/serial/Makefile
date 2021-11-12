@@ -8,10 +8,10 @@ LDFLAGS=
 SOURCE=./saxpy_serial.c
 
 # binary name
-EXEC=a.out
+EXEC=saxpy_serial.exe
 
 all:
-	$(CC) $(FDFLAGS) $(SOURCE) -o $(EXEC)
+	$(CC) $(LDFLAGS) $(SOURCE) -o $(EXEC)
 	@echo -e "----- COMPILATION DONE -----"
 
 
