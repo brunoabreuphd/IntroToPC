@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name="hello"
+#SBATCH --output="hello%j.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem=4G
+#SBATCH --account=nsa108
+#SBATCH --export=ALL
+#SBATCH -t 00:00:15
+
+echo "Starting Hello World with 8 threads" 
+export OMP_NUM_THREADS=8
+./hello_omp.exe
