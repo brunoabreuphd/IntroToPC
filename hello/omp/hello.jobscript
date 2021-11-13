@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name="hello"
-#SBATCH --output="hello%j.out"
+#SBATCH --output="hello-%j.out"
 #SBATCH --partition=shared
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
