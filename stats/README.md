@@ -22,7 +22,7 @@ which will send the [stats.jobscript](./omp/stats.jobscript) to the scheduler an
 
 ### Conclusions
 - OpenMP is an easy approach to parallelize tasks.
-- Speedup can be quite linear, but scaling is restricted by the number of tasks, and performance is dominated by the slowest/busiest thread.
+- Speedup can be quite linear, but scaling is constrained by the number of tasks, and performance is dominated by the slowest/busiest thread.
 
 
 ### Further exercises
