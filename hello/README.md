@@ -11,7 +11,7 @@ This folder contains the C++ serial code that performs Hello, [hello_serial.cpp]
  
 
 ## [omp](./omp)
-This folder contains the code with OpenMP directives [hrllo_omp.cpp](./omp/hello_omp.cpp). The GCC compilation flag to enable OpenMP is *-fopenmp*, which is included in the [Makefile](./omp/Makefile), compile it and run it to see the execution time.
+This folder contains the code with OpenMP directives [hello_omp.cpp](./omp/hello_omp.cpp). The GCC compilation flag to enable OpenMP is *-fopenmp*, which is included in the [Makefile](./omp/Makefile), compile it and run it to see the execution time.
 
 After compilation, you can run this code on one of Expanse's compute nodes by issuing the command
 ```
