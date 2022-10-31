@@ -1,6 +1,7 @@
 # IntroToPC
 
-### Exercises for Intro to Parallel Computing Workshop taught on 11/17/2021.
+### Exercises for Intro to Parallel Computing Workshop using SDSC's Expanse.
+The last version of this workshop was on 2021-11-17.
 This workshop is offered by the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/).
 Each exercise is comprised of a serial code and the OpenMP-parallelized version of it. Makefiles are available for compilation with GCC, as well as batch job scripts with specific configurations to run the code on [SDSC's Expanse](https://www.sdsc.edu/services/hpc/expanse/).
 
