@@ -1,8 +1,8 @@
 # IntroToPC
 
-### Exercises for Intro to Parallel Computing Workshop taught on 11/17/2021.
+### Exercises for Intro to Parallel Computing Workshop.
 This workshop is offered by the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/).
-Each exercise is comprised of a serial code and the OpenMP-parallelized version of it. Makefiles are available for compilation with GCC, as well as batch job scripts with specific configurations to run the code on [SDSC's Expanse](https://www.sdsc.edu/services/hpc/expanse/).
+Each exercise is comprised of a serial code and the OpenMP-parallelized version of it. Makefiles are available for compilation with GCC, as well as batch job scripts with specific configurations to run the code on different systems.
 
 ## 1. [hello](https://github.com/babreu-ncsa/IntroToPC/tree/main/hello)
 This exercise is the classic *Hello, World!* code. It serves as an introduction to how threads can execute tasks independently and asynchronously. 
