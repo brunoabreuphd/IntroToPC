@@ -1,6 +1,7 @@
 # IntroToPC
 
-### Exercises for Intro to Parallel Computing Workshop.
+### Exercises for Intro to Parallel Computing Workshop on UIUC's ICC
+The last version of this workshop was on 2022-11-03.
 This workshop is offered by the [National Center for Supercomputing Applications](https://www.ncsa.illinois.edu/).
 Each exercise is comprised of a serial code and the OpenMP-parallelized version of it. Makefiles are available for compilation with GCC, as well as batch job scripts with specific configurations to run the code on different systems.
 
