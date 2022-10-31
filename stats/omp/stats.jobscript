@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --job-name="stats"
 #SBATCH --output="stats-%j.out"
-#SBATCH --partition=shared
+#SBATCH --partition=<YourPartition>
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=6
 #SBATCH --mem=8G
-#SBATCH --account=nsa108
+#SBATCH --account=<YourAccount>
 #SBATCH --export=ALL
 #SBATCH -t 00:02:00
 

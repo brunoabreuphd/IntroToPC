@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --job-name="hello"
 #SBATCH --output="hello-%j.out"
-#SBATCH --partition=shared
+#SBATCH --partition=<YourPartition>
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
 #SBATCH --mem=4G
-#SBATCH --account=nsa108
+#SBATCH --account=<YourAccount>
 #SBATCH --export=ALL
 #SBATCH -t 00:00:15
 

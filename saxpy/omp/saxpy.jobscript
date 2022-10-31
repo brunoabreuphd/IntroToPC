@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --job-name="saxpy"
 #SBATCH --output="saxpy-%j.out"
-#SBATCH --partition=shared
+#SBATCH --partition=<YourPartition>
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=32
 #SBATCH --mem=16G
-#SBATCH --account=nsa108
+#SBATCH --account=<YourAccount>
 #SBATCH --export=ALL
 #SBATCH -t 00:05:00
 
