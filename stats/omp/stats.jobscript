@@ -5,7 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=6
 #SBATCH --mem=8G
-#SBATCH --account=20221103
+#SBATCH --account=RFST
 #SBATCH --export=ALL
 #SBATCH -t 00:02:00
 
