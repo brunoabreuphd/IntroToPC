@@ -1,11 +1,11 @@
-# Fortran GCC compiler
-CC=gcc
+# C++ GCC compiler
+CC=g++
 
 # compilation flags (none)
 LDFLAGS=
 
 # source file
-SOURCE=./saxpy_serial.c
+SOURCE=./saxpy_serial.cpp
 
 # binary name
 EXEC=saxpy_serial.exe
